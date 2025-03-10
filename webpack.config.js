@@ -7,7 +7,7 @@ module.exports = {
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist'),
-        publicPath: '/3d_portfolio/', // Update this line
+        publicPath: '/', // Update this line
     },
     module: {
         rules: [
