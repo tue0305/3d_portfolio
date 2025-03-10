@@ -1,0 +1,30 @@
+{
+  "name": "threejs-portfolio",
+  "version": "1.0.0",
+  "description": "A portfolio website built with Three.js",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development"
+  },
+  "dependencies": {
+    "three": "^0.152.0"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^13.0.0",
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "keywords": [
+    "threejs",
+    "portfolio",
+    "web",
+    "3d"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
